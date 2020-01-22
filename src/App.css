@@ -6,6 +6,30 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container{
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  padding-top: 0;
+  border-radius: 5px;
+  background: #eaeaea;  
+  overflow: auto;
+  line-height: 50px;
+  box-shadow:4px 4px 8px 0px #ccc,
+              -4px -4px 8px 0px #eaeaea ;
+}
+.container > div{
+  width: calc(100% /10 - 30px);
+  height: 50px; 
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+  vertical-align: middle;
+  box-shadow:4px 4px 8px 0px #ccc,
+              -4px -4px 8px 0px #fff ;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
