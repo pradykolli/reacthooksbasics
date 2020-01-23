@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.Modules{
+  width: calc(48% - 40px);
+  margin-right: 1%;
+  float: left;
+  margin-top: 1%;
+  border-radius: 5px;
+  box-shadow:4px 4px 8px 0px #ccc,
+              -4px -4px 8px 0px #eaeaea ;
+  padding:10px;
 }
 .container{
   width: 80%;
