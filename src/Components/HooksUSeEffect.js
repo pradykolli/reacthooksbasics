@@ -7,6 +7,7 @@ function HooksUSeEffect() {
     }, [count])
     return (
         <div>
+            <h2>Changing the document title by using useEffect</h2> 
             <button className="btn btn-success" onClick={() => setCount(count + 1)}>Count {count}</button>
             <h3>Watch the tab title change when you click this button</h3>
         </div>

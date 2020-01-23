@@ -8,6 +8,7 @@ import HooksUSeEffect from './Components/HooksUSeEffect';
 import HookUseEffectToFetchData from './Components/HookUseEffectToFetchData';
 import HooksUseEffectToFetchSinglePost from './Components/HooksUseEffectToFetchSinglePost';
 import HooksUseContext from './Components/HooksUseContext';
+import HooksUseReducers from './Components/HooksUseReducers';
 
 export const UserContext = createContext()
 export const AkaContext = createContext()
@@ -45,6 +46,10 @@ function App() {
                </div>
                <div className="Modules">
                   <HooksUseContext />
+                  <br />
+               </div>
+               <div className="Modules">
+                  <HooksUseReducers />
                   <br />
                </div>
             </div>
