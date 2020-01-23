@@ -9,14 +9,17 @@
   pointer-events: none;
 }
 .Modules{
-  width: calc(48% - 40px);
-  margin-right: 1%;
+  width: calc(47%);
+  margin-right: 1.5%;
   float: left;
   margin-top: 1%;
   border-radius: 5px;
   box-shadow:4px 4px 8px 0px #ccc,
               -4px -4px 8px 0px #eaeaea ;
   padding:10px;
+}
+.text-left{
+  text-align: left;
 }
 .container{
   width: 80%;

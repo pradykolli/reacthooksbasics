@@ -4,6 +4,8 @@ import HooksUseState from './Components/HooksUseState';
 import HooksUseStateUsingObject from './Components/HooksUseStateUsingObject';
 import HooksUseStateWithArrays from './Components/HooksUseStateWithArrays';
 import HooksUSeEffect from './Components/HooksUSeEffect';
+import HookUseEffectToFetchData from './Components/HookUseEffectToFetchData';
+import HooksUseEffectToFetchSinglePost from './Components/HooksUseEffectToFetchSinglePost';
 
 function App() {
   return (
@@ -26,6 +28,14 @@ function App() {
      </div>
      <div className="Modules">
         <HooksUSeEffect />
+        <br/>
+     </div>
+     <div className="Modules">
+        <HookUseEffectToFetchData />
+        <br/>
+     </div>
+     <div className="Modules">
+        <HooksUseEffectToFetchSinglePost />
         <br/>
      </div>
     </div>
