@@ -5,7 +5,7 @@ function HookUseEffectToFetchData() {
     const [posts, setPosts] = useState([])
 
     useEffect(() => {
-        axios.get("https://jsonplaceholder.typicode.com/posts")
+        axios.get("https://jsonplaceholder.typicode.com/posts/")
             .then(res => {
                 console.log(res)
                 setPosts(res.data)
