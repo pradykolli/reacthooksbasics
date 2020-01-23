@@ -8,7 +8,7 @@ function HooksUseStateWithArrays() {
     }
     return (
         <div>
-            <button onClick={nextFibNumber}>Next Fibonicci Number</button>
+            <button className="btn btn-success" onClick={nextFibNumber}>Next Fibonicci Number</button>
             <div className='container'>
                 {numbers.map(number => (<div key={number}>{number}</div>))}
             </div>

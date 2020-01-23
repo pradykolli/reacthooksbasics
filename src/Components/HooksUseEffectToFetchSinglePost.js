@@ -23,7 +23,7 @@ function HooksUseEffectToFetchSinglePost() {
         <div>
             <h2>Fetching single post based on ID from Rest API using axios and useEffect</h2>
             <input type="text" value={id} onChange={e => setId(e.target.value)} />
-            <button type="button" onClick={() => setClickedId(id)} >Fetch Post</button>
+            <button className="btn btn-success" type="button" onClick={() => setClickedId(id)} >Fetch Post</button>
             {loading 
              ? <div>loading...</div> 
              : <div className="text-left" key = {post.id}><strong>{post.id}. </strong>{post.title}</div>

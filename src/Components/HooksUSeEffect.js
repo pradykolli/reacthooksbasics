@@ -7,7 +7,7 @@ function HooksUSeEffect() {
     }, [count])
     return (
         <div>
-            <button onClick={() => setCount(count + 1)}>Count {count}</button>
+            <button className="btn btn-success" onClick={() => setCount(count + 1)}>Count {count}</button>
             <h3>Watch the tab title change when you click this button</h3>
         </div>
     )
