@@ -10,6 +10,7 @@ import HooksUseEffectToFetchSinglePost from './Components/HooksUseEffectToFetchS
 import HooksUseContext from './Components/HooksUseContext';
 import HooksUseReducers from './Components/HooksUseReducers';
 import HooksuseReducersWithContext from './Components/UseReducerswithcontext/HooksuseReducersWithContext';
+import HooksFetchDataWithUseReducers from './Components/HooksFetchDataWithUseReducers';
 
 export const UserContext = createContext()
 export const AkaContext = createContext()
@@ -70,6 +71,10 @@ function App() {
                   </div>
                   <div className="Modules">
                      <HooksuseReducersWithContext />
+                     <br />
+                  </div>
+                  <div className="Modules">
+                     <HooksFetchDataWithUseReducers />
                      <br />
                   </div>
                </div>
