@@ -32,8 +32,16 @@ function HooksFetchDataWithUseReducers() {
     return (
         <div>
             <h2>Fetching posts from Rest API using axios useReducers and useEffect</h2>
-            <div className="text-left" key = {state.post.id}><strong>{state.post.id}. </strong>{state.post.title}</div> 
-            <div className="text-left">{state.error}</div>
+            {
+                !state.loading 
+                ? <div className="text-left" key = {state.post.id}><strong>{state.post.id} </strong>{state.post.title}</div> 
+                : <div className="text-left" >Loading..</div>
+            }
+            {
+                state.error 
+                ? <div className="text-left">{state.error}</div> 
+                : <div className="text-left">{state.error}</div> 
+            }
         </div>
     )
 }
